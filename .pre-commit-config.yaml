@@ -1,0 +1,15 @@
+repos:
+-   repo: https://github.com/psf/black
+    rev: 23.7.0
+    hooks:
+    - id: black
+-   repo: https://github.com/PyCQA/flake8
+    rev: 6.1.0
+    hooks:
+    - id: flake8
+-   repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v2.4.0
+    hooks:
+    - id: conventional-pre-commit
+    stages: [commit-msg]
+    args: [--strict]
