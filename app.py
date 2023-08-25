@@ -4,6 +4,8 @@ productsWeb = [
     {"name": "Product 2", "price": 5, "stock": 100},
     {"name": "Product 3", "price": 5, "stock": 100},
     {"name": "Product 4", "price": 5, "stock": 100},
+    {"name": "Product 4", "price": 5, "stock": 100},
+    {"name": "Product 4", "price": 5, "stock": 100},
 ]
 
 for product in productsWeb:
